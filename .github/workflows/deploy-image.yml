@@ -3,7 +3,7 @@ name: Deploy Docker Image
 on:
   push:
     branches:
-      - main  # Trigger deployment on push to the main branch
+      - main
 
 jobs:
   build-and-push:
